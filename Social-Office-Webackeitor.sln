@@ -1,14 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webackeitor.Desktop", "Webackeitor\Webackeitor.Desktop.csproj", "{DBEC3F31-A3C6-4DAA-B9E7-635FDB8E72D4}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8A18F30E-90E7-45AE-B99F-45A6C4F3427C}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		ACKNOWLEDGMENTS.md = ACKNOWLEDGMENTS.md
+		AUTHORS.md = AUTHORS.md
+		CHANGELOG.md = CHANGELOG.md
+		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE.md = LICENSE.md
 		README.md = README.md
+		RELEASE.md = RELEASE.md
+		ROADMAP.md = ROADMAP.md
+		TODO.md = TODO.md
 	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "docs", "docs\", "{6464EE97-61AC-4B46-8FD9-1368025535F7}"
@@ -32,23 +39,36 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "docs", "docs\", "{6464EE97-
 		SlnRelativePath = "docs\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webackeitor", "src\Webackeitor\Webackeitor.csproj", "{EC9B10E3-607D-46BD-B856-6D50285E3479}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{4FF93054-9C81-4D47-9372-A6DE81B461D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{7EA750F4-75CE-4571-87AD-6ADD150D51CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publish", "Publish", "{C97615CD-4A5A-4171-83C4-2E7E00682E06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{C43CFE6F-3503-48AD-9703-3749A30B89EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DBEC3F31-A3C6-4DAA-B9E7-635FDB8E72D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBEC3F31-A3C6-4DAA-B9E7-635FDB8E72D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBEC3F31-A3C6-4DAA-B9E7-635FDB8E72D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBEC3F31-A3C6-4DAA-B9E7-635FDB8E72D4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6464EE97-61AC-4B46-8FD9-1368025535F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6464EE97-61AC-4B46-8FD9-1368025535F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6464EE97-61AC-4B46-8FD9-1368025535F7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{6464EE97-61AC-4B46-8FD9-1368025535F7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EC9B10E3-607D-46BD-B856-6D50285E3479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9B10E3-607D-46BD-B856-6D50285E3479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9B10E3-607D-46BD-B856-6D50285E3479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9B10E3-607D-46BD-B856-6D50285E3479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC9B10E3-607D-46BD-B856-6D50285E3479} = {4FF93054-9C81-4D47-9372-A6DE81B461D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D42E9C04-5A1A-42BF-9A55-8AE5CD7BFA85}

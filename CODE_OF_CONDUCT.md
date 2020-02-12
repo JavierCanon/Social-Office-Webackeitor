@@ -1,5 +1,5 @@
 # Code of Conduct
-```Last Updated: 2018-01-01 by Javier Cañon```
+```Last Updated: 2018-01-01 by [Javier Cañon](https://www.javiercanon.com)```
 
 In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
 

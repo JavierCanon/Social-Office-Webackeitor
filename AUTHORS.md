@@ -6,5 +6,4 @@ Name or Organization <email@address> [website](http://domain.com)
 
 # Authors
 
-Peter van der Woude
 Javier Cañon <javier@javiercanon.com> [website](https://www.javiercanon.com)
